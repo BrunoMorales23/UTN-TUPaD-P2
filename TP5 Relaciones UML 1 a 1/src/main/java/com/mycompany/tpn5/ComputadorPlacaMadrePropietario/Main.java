@@ -59,7 +59,7 @@ class Computadora {
     public Propietario getPropietario() { return propietario; }
     public void setPropietario(Propietario propietario) {
         this.propietario = propietario;
-        propietario.setComputadora(this); // Mantener bidireccionalidad
+        propietario.setComputadora(this);
     }
 }
 
@@ -82,4 +82,5 @@ class Propietario {
 
     public Computadora getComputadora() { return computadora; }
     public void setComputadora(Computadora computadora) { this.computadora = computadora; }
+
 }
